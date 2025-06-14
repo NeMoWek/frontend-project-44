@@ -1,4 +1,4 @@
-const BrainPrime = () => {
+const brainPrime = () => {
   const num = Math.round(Math.random() * 100) + 2
   const numD = Math.round(Math.sqrt(num))
 
@@ -11,4 +11,4 @@ const BrainPrime = () => {
   return [num, 'yes']
 }
 
-export default BrainPrime
+export default brainPrime
