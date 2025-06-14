@@ -10,12 +10,15 @@
     "type": "module",
     "bin": {
       "brain-games": "bin/brain-games.js"
-      }
-    },
+    }
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NeMoWek/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/NeMoWek/frontend-project-44#readme"
+  "homepage": "https://github.com/NeMoWek/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
