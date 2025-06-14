@@ -7,7 +7,8 @@ const BrainGCD = () => {
   while (a !== 0 && b !== 0) {
     if (a >= b) {
       a -= b
-    } else {
+    }
+    else {
       b -= a
     }
   }
