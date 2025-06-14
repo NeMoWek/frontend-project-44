@@ -5,7 +5,7 @@ const Bodygames = (description, taskFunc) => {
   const PName = welcome()
   console.log(description)
   let mark = 0
-  
+
   for (let i = 1; i <= 3; i += 1) {
     const step = taskFunc()
 
