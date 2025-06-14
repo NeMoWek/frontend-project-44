@@ -1,4 +1,4 @@
-const task1 = () => {
+const BrainEven = () => {
   const q = Math.round(Math.random() * 100)
   let a = ''
 
@@ -11,4 +11,4 @@ const task1 = () => {
   return [q, a]
 }
 
-export default task1
+export default BrainEven
